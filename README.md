@@ -1,2 +1,2 @@
 # cpsc362-project
-CPSC-362 Semester Project
+CPSC362 Semester Project
