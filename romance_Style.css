@@ -68,5 +68,10 @@ body {
     background-color: #F3D9C5;
   }
 
+  #first_section a{
+    text-decoration: none;
+    color:white;
+  }
+
   /* ROMANCE SECTION STYLING */
   
