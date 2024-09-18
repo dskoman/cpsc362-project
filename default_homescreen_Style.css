@@ -66,4 +66,9 @@ body {
   .navigation_bar a:hover {
     background-color: #F3D9C5;
   }
+
+  #first_section a{
+    text-decoration: none;
+    color:white;
+  }
   
