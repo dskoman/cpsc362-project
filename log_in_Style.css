@@ -1,0 +1,11 @@
+body {
+background-color: aliceblue;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#log_in_container {
+background-color: rgb(251, 253, 255);
+margin-top: 20%;
+}

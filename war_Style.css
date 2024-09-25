@@ -1,0 +1,72 @@
+/* DEFAULT STYLING */
+body {
+    background-color: lightgray;
+    margin: 0px;
+  }
+  
+  #first_section {
+    background-color: lightblue;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+  }
+
+  
+  /*Button section*/
+  #first_section button{
+    color:white;
+    background-color:rgb(190, 183, 231);
+    border-style: solid;
+    border-radius:10px;
+    border-color: white;
+    height:30px;
+    width:78px;
+  }
+
+  #first_section button:hover {
+    background-color:rgb(174, 169, 209);
+  }
+
+
+  /*Image portion*/
+  #image {
+    background-image: url('https://static8.depositphotos.com/1394326/951/i/950/depositphotos_9514734-stock-photo-old-poetry.jpg');
+    width: 100%;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+/* Navigation Bar*/
+  nav {
+    background-color: bisque;
+  }
+  
+  .navigation_bar {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navigation_bar li {
+    flex: 1;
+  }
+
+  .navigation_bar a{
+    text-decoration: none;
+    color:black;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    display:block;
+    padding: 15px;
+  }
+
+  .navigation_bar a:hover {
+    background-color: #F3D9C5;
+  }
+
+  /* WAR SECTION STYLING */
+  

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Poemsy</title>
+  <link rel="stylesheet" href="log_in_Style.css">
+</head>
+
+<body>
+  <div id="log_in_container">
+    <h1>Enter Username: </h1>
+    <input type="text" id="username" placeholder="Username">
+    
+    <h1>Enter Password: </h1>
+    <input type="password" id="password" placeholder="Password">
+    
+    <button id="loginButton">Log In</button> 
+  </div>
+  
+  <script>
+    document.getElementById("loginButton").addEventListener("click", async function(event) {
+      event.preventDefault(); // Prevent default button behavior
+      
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      const response = await fetch('http://localhost:3000/api/login', { // Change this to your login API endpoint
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+              username,
+              user_password: password // Adjust based on your API's expected payload
+          }),
+      });
+
+      const result = await response.json();
+      
+      // Check if the login was successful
+      if (response.ok) {
+          console.log('Login successful:', result);
+          alert('Login successful!');
+      } else {
+          console.error('Login Failed:', result);
+          alert('Login Failed: ' + result.message); 
+      }
+    });
+  </script>
+</body>
+</html>
