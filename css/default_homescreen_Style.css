@@ -1,0 +1,105 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#first_section {
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: x-large;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 1 10%;
+  width: 100%;
+}
+
+h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2%;
+}
+
+.button-container {
+  display: flex;
+}
+
+/*Button section*/
+#first_section button{
+  margin-right: 20px;
+  color: black;
+  background-color:#FFFF00;
+  border-style: solid;
+  border-radius:10px;
+  border-color: white;
+  border-width: 5px;
+  height:45px;
+  width:100px;
+  font-size: medium;
+}
+
+#first_section button:hover {
+  background-color:#cccc00;
+}
+
+
+/*Image portion*/
+#image {
+  background-image: url('https://static8.depositphotos.com/1394326/951/i/950/depositphotos_9514734-stock-photo-old-poetry.jpg');
+  width: 100%;
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Navigation Bar*/
+nav {
+  background-color: black;
+  width: 100%
+}
+
+.navigation_bar {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation_bar li {
+  flex: 1;
+}
+
+.navigation_bar a{
+  text-decoration: none;
+  color:white;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  display:block;
+  padding: 15px;
+}
+
+.navigation_bar a:hover {
+  background-color: white;
+  color: black;
+}
+
+#first_section a{
+  text-decoration: none;
+  color:white;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px black;
+}
