@@ -24,3 +24,11 @@ poem_id INT NOT NULL,
 FOREIGN KEY (user_id) REFERENCES Users(user_id),
 FOREIGN KEY (poem_id) REFERENCES Posts(poem_id)
 )ENGINE=InnoDB;
+
+CREATE TABLE Comments (
+comment TEXT NOT NULL,
+user_id INT NOT NULL,
+poem_id INT NOT NULL,
+FOREIGN KEY (user_id) REFERENCES Users(user_id),
+FOREIGN KEY (poem_id) REFERENCES Posts(poem_id)
+)ENGINE=InnoDB;
