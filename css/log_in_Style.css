@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin:0;
+}
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#log_in_container {
+    display:block;
+    background-color: black;
+    padding: 50px;
+    box-shadow: 0px 4px 7px 0px #cccc00;
+}
+
+#log_in_container button{
+    padding: 6px;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black;
+    background-color:#FFFF00;
+    border-style: solid;
+    border-radius:10px;
+    border-color: white;
+    border-width: 5px;
+    font-size: medium;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#log_in_container button:hover {
+    background-color: #cccc00;
+}
+
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:larger;
+    color: white;
+}
