@@ -1,3 +1,4 @@
+CREATE DATABASE poemsy;
 USE poemsy;
 
 CREATE TABLE Users (
